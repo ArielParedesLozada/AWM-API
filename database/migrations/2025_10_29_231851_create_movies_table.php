@@ -19,7 +19,8 @@ return new class extends Migration
             $table->integer('duration');
             $table->string('poster');
             $table->json('genre');
-            $table->decimal('rate', 3, 1); 
+            $table->decimal('rate', 3, 1);
+            $table->timestamps();
         });
     }
 
